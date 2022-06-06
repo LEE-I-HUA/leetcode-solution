@@ -9,7 +9,7 @@
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         setSave = set()
-        current = headA # the current interger in list headA   
+        current = headA 
         while current:
             setSave.add(current)
             current = current.next
